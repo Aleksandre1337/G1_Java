@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="1000.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <Label layoutX="15.0" layoutY="10.0" style="-fx-font-weight: bold" text="განცხადების ფორმა:"/>
+
+        <Label layoutX="15.0" layoutY="35.0" text="გარიგების ტიპი:"/>
+        <ComboBox fx:id="1" layoutX="125.0" layoutY="32.0" prefWidth="95.0" prefHeight="10.0" promptText="იყიდება"/>
+
+        <Label layoutX="15.0" layoutY="60.0" text="მდებარეობა:"/>
+        <ComboBox fx:id="2" layoutX="125.0" layoutY="57.0" prefWidth="110.0" prefHeight="10.0" promptText="თბილისი"/>
+
+        <Label layoutX="15.0" layoutY="85.0" text="უბანი:"/>
+        <ComboBox fx:id="3" layoutX="125.0" layoutY="82.0" prefWidth="130.0" prefHeight="10.0" promptText="გლდანი-ნაძალადევი"/>
+
+        <Label layoutX="15.0" layoutY="110.0" text="ქონების ტიპი:"/>
+        <ComboBox fx:id="4" layoutX="125.0" layoutY="107.0" prefWidth="80.0" prefHeight="10.0" promptText="ბინა"/>
+
+        <Label layoutX="15.0" layoutY="140.0" text="ოთახების რაოდენობა:"/>
+    </children>
+</AnchorPane>
